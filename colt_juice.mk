@@ -6,20 +6,18 @@
 
 $(call inherit-product, device/xiaomi/juice/device.mk)
 
-# Inherit some common Bliss stuff.
+# Inherit some common Colt stuff.
 WITH_GAPPS := true
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_GAPPS_ARCH := arm64
+COLT_BUILD_MAINTAINER := JoemarTaroy
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-#Build
-BLISS_BUILDTYPE=OFFICIAL
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_juice
+PRODUCT_NAME := colt_juice
 PRODUCT_DEVICE := juice
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := sm6115

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_juice.mk
+    $(LOCAL_DIR)/colt_juice.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_juice-user \
-    bliss_juice-userdebug \
-    bliss_juice-eng
+    colt_juice-user \
+    colt_juice-userdebug \
+    colt_juice-eng
